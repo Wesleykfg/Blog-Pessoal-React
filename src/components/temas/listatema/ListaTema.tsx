@@ -5,7 +5,7 @@ import Tema from "../../../models/Tema";
 import './ListaTema.css';
 import useLocalStorage from 'react-use-localstorage';
 import { useHistory } from "react-router-dom";
-import { buscar } from '../../services/Service';
+import { buscar } from '../../../services/Service';
 
 function ListaTema() {
     const [temas, setTemas] = useState<Tema[]>([])
